@@ -1,0 +1,151 @@
+body {
+    font-family: tahoma;
+}
+.gamesBlockWrap {
+    width: 100%;
+    border: 3px solid rgba(71, 179, 221, 0.43);
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.gameItem {
+    width: 33.33%;
+    background: #47b3dd;
+    float: left;
+    min-width: 282px;
+    border-bottom: 2px solid rgba(174, 207, 219, 1);
+    position: relative;
+}
+.activeUserName {
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 6px;
+    padding-left: 28px;
+}
+.gameTitle {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    background: rgb(233, 164, 40);
+    color: #FFF;
+    width: 65px;
+    float: left;
+    line-height: 25px;
+    height: 25px;
+    margin-left: -19px;
+    padding-left: 0px;
+    margin-top: 27px;
+    text-align: center;
+}
+.gameBord {
+    min-height: 249px;
+    width: 251px;
+    background: rgb(158, 185, 183);
+    margin-left: -18px;
+    float: left;
+    margin-top: 7px;
+}
+.gameBord.chess {
+    background: rgb(118, 200, 124);
+}
+.gameBord.othello {
+    background: rgb(127, 224, 134);
+}
+.gameBord .white,
+.gameBord .black,
+.capturedSqr {
+    width: 31.25px;
+    height: 31.25px;
+    float: left;
+}
+.gameBord.chess .white div,
+.gameBord.chess .black div {
+    zoom: 2.2;
+    margin-top: -3px;
+}
+.gameBord .white {
+    background: #fff;
+}
+.gameBord .black {} .capturedTitle {
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding-left: 28px;
+    color: #fff;
+    padding-top: 6px;
+    height: 32px;
+}
+.capturedDesk .whiteRow,
+.capturedDesk .blackRow {
+    width: 100%;
+    float: left;
+}
+.capturedDesk .whiteRow {
+    color: #fff;
+}
+.capturedDesk .blackRow {
+    color: #000;
+}
+.capturedDesk {
+    float: left;
+    text-align: center;
+    width: 250px;
+    height: 62px;
+    margin-left: 28px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.23);
+}
+.capturedDesk .score {
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+.capturedDesk .chessItem {
+    float: left;
+    width: 20px;
+    height: 20px;
+    padding-top: 4px;
+}
+/*cls for dark check in checkers play */
+
+.darkCheck,
+.whiteCheck {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    align-content: center;
+    display: inline-block;
+}
+.darkCheck {
+    background: rgba(0, 92, 255, 1);
+}
+.whiteCheck {
+    background: rgba(238, 229, 29, 1);
+}
+.vicory {
+    position: absolute;
+    top: 37%;
+    left: 107px;
+    background: #fff;
+    text-transform: uppercase;
+    padding: 4%;
+}
+.whiteScore {
+    float: left;
+    width: 35px;
+    height: 34px;
+    background: rgba(238, 229, 29, 1);
+    color: #000;
+    font-size: 23px;
+}
+.blackScore {
+    float: right;
+    width: 35px;
+    height: 34px;
+    background: rgba(0, 92, 255, 1);
+    color: #fff;
+    font-size: 23px;
+}
